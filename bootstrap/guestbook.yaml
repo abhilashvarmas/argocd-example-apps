@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/$login/argocd-example-apps
+    repoURL: https://github.com/abhilashvarmas/argocd-example-apps.git
     targetRevision: topic-09-scaling
     path: guestbook
   destination:
