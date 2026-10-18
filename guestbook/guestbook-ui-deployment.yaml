@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-ui
 spec:
+  # Reverted to the 26b1c1a replica target (2 replicas)
   replicas: 2
   revisionHistoryLimit: 3
   selector:
